@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SERVER_IP      = '172.31.31.38'   
-        SSH_CREDENTIAL = 'my-key'
+        SSH_CREDENTIAL = 'new-key'
         REPO_URL       = 'https://github.com/aniketm11/nodejs-app.git'
         BRANCH         = 'main'
         REMOTE_USER    = 'ubuntu'
